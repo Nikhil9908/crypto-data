@@ -15,7 +15,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/index.html'));
   });
 
-mongoose.connect('mongodb+srv://Nikhil99:YMdCuusWj73Jr20o@cluster0.wtmewxp.mongodb.net/quadB-task', {
+mongoose.connect('--------please enter your mongoDb connection link---------------------', {
  useNewUrlParser: true
 }).then(()=> {
     console.log('Mongoose is connected');
